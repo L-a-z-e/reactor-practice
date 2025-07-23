@@ -18,6 +18,7 @@ public class Scheduler {
                 .log()
                 .publishOn(Schedulers.parallel())
                 .log()
-                .map(i -> i * 2);
+                .map(i -> i * 2)
+                .log();
     }
 }
